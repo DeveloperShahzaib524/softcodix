@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+    /* border: 2px solid red; */
+  }
+.container1{
+    /* border: 2px solid red; */
+    height:6rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+
+.logocontainer{
+    /* border: 2px solid blue; */
+    height:5rem;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.logocontainer>img{
+    height: 100%;
+    /* border: 2px solid yellow; */
+    margin-top: 1rem;
+    
+   
+}
+.nav-items{
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    /* border: 2px solid brown; */
+    width: auto;
+    color: black;
+
+}
+.nav-items>ul{
+    display: flex;
+    align-items: center;
+    margin:0.8rem ;
+}
+#service >img{
+    height: 1rem;
+    width: 1rem;
+    margin-left: 5px;
+    /* border: 2px solid pink; */
+    cursor: pointer;
+    /* color: green; */
+    
+    
+}
+#service{
+    /* border:  2px solid crimson; */
+    display: flex;
+    justify-content: center;align-items: center;
+    
+
+}
+.nav-items>ul>li>a{
+    margin: 0 1rem;
+    /* font-family: 'Roboto'; */
+    color: black;
+    font-weight: 700;
+    font-size: 1rem;
+    
+  
+    
+}
+button{
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 0.9rem 1.8rem;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-right:20px ;
+    cursor: pointer;
+    /* font-family: 'Inter'; */
+    
+   
+}
+
+
+ .nav-items ul li {
+    position: relative;
+  }
+  
+  .nav-items ul li a {
+    color: #000; /* Default color */
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .nav-items ul li a:hover {
+    color: green; /* Hover color */
+  }
+  
+  /* Create the border bottom effect */
+  .nav-items ul li a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px; /* Border thickness */
+    background-color: green; /* Border color */
+    transition: width 0.3s ease; /* Transition effect */
+    width: 0; /* Initially hidden */
+  }
+  
+  .nav-items ul li a:hover::before {
+    width: 100%; /* Expand to full width on hover */
+  }
+  .info{
+    /* border: 2px solid red; */
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #27444B;
+  color: white;
+  padding: 2px 16px;
+  font-size: 14px ;
+  }
+  .info_content{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    
+    
+  }
+  .info_content>img{
+    display: flex;
+    align-items: center;
+    width: 27px;
+    height: 27px;
+  }
+  .info_content>a{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+  }
